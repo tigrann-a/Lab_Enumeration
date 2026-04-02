@@ -2,15 +2,16 @@
 
 // Classroom
 
-//Console.WriteLine("Fun");
+// 1.
+Console.WriteLine("Fun");
 
-//Garage carLot = new Garage();
+Garage garage = new Garage();
 //MyColors colors = new MyColors();
 
-//foreach(Car c in carLot)
-//{
-//    Console.WriteLine("{0} is going {1} MPH", c.DriverName, c.Year);
-//}
+foreach (Car c in garage)
+{
+    Console.WriteLine("{0} is produced in {1} year", c.Model, c.Year);
+}
 
 //Console.WriteLine();
 
@@ -51,9 +52,9 @@
 //}
 
 // 3.
-MyNumbers numbers = new MyNumbers();
+//MyNumbers numbers = new MyNumbers();
 
-foreach(int number in numbers)
-{
-    Console.WriteLine(number);
-}
+//foreach(int number in numbers)
+//{
+//    Console.WriteLine(number);
+//}

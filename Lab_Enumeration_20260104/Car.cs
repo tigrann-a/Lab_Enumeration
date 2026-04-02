@@ -5,9 +5,9 @@ public class Car
     public string Model { get; set; }
     public int Year { get; set; }
 
-    public Car(string carModel, int year)
+    public Car(string model, int year)
     {
-        Model = carModel;
+        Model = model;
         Year = year;
     }
 }
