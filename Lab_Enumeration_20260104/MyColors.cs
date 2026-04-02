@@ -4,10 +4,10 @@ namespace Lab_Enumeration_20260104;
 
 public class MyColors : IEnumerable
 {
-    string[] Colors = { "Red", "Yellow", "Blue" };
+    private readonly string[] _colors = { "Red", "Yellow", "Blue" };
 
     public IEnumerator GetEnumerator()
     {
-        return new ColorEnumerator(Colors);
+        return new ColorEnumerator(_colors);
     }
 }

@@ -30,7 +30,7 @@ public class ColorEnumerator : IEnumerator
 
     public bool MoveNext()
     {
-        if(Position < Colors.Length - 1)
+        if (Position < Colors.Length - 1)
         {
             Position++;
             return true;

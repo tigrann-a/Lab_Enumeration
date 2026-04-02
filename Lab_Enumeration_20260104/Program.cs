@@ -3,15 +3,15 @@
 // Classroom
 
 // 1.
-Console.WriteLine("Fun");
+//Console.WriteLine("Fun");
 
-Garage garage = new Garage();
+//Garage garage = new Garage();
 //MyColors colors = new MyColors();
 
-foreach (Car c in garage)
-{
-    Console.WriteLine("{0} is produced in {1} year", c.Model, c.Year);
-}
+//foreach (Car c in garage)
+//{
+//    Console.WriteLine("{0} is produced in {1} year", c.Model, c.Year);
+//}
 
 //Console.WriteLine();
 
@@ -58,3 +58,11 @@ foreach (Car c in garage)
 //{
 //    Console.WriteLine(number);
 //}
+
+// 4.
+Countries countries = new Countries();
+
+foreach(string country in countries)
+{
+    Console.WriteLine(country);
+}
