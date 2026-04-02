@@ -2,12 +2,12 @@
 
 public class Car
 {
-    public string DriverName { get; set; }
+    public string Model { get; set; }
     public int Year { get; set; }
 
-    public Car(string driverName, int year)
+    public Car(string carModel, int year)
     {
-        DriverName = driverName;
+        Model = carModel;
         Year = year;
     }
 }
